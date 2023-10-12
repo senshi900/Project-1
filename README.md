@@ -64,7 +64,7 @@ The project must be written entirely in the Dart language and fully submitted th
 ## Schedule & Deadlines:
 
 - Exam Start Date: 12/10/2023 - 3:00 PM
-- Exam Submission Deadline: 15/10/2023 – 11:59 PM
+- Exam Submission Deadline: 15/10/2023 – 9:59 AM
 
 ## Evaluation Criteria:
 
