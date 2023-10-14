@@ -103,7 +103,7 @@ class Book {
     var bookMap = booksList.firstWhere((book) => book['title'] == title);
 
     if (bookMap != null) {
-      double availableQuantity = double.parse(bookMap['Quantity']);
+      double availableQuantity = double.parse(bookMap['Quantity'].toString());
 
       print("Available copies: $availableQuantity");
 
@@ -112,8 +112,15 @@ class Book {
         double quantityToBuy = double.tryParse(stdin.readLineSync()!) ?? 0.0;
 
         if (quantityToBuy > 0 && quantityToBuy <= availableQuantity) {
+          // Deduct the purchased copies from available quantity
+          double total =
+              bookMap['Quantity'] = availableQuantity * quantityToBuy;
+          double remeningbooks =
+              bookMap['Quantity'] = availableQuantity - quantityToBuy;
           bookMap['Quantity'] = availableQuantity - quantityToBuy;
-          print("Book(s) purchased successfully.");
+          print("Book(s) purchased successfully. ");
+          print("total peice : $total");
+          print("remining books: $remeningbooks ");
         } else {
           print("Invalid quantity. Please enter a valid number.");
         }
