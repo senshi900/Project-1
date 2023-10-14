@@ -4,24 +4,24 @@
 ## Introduction:
 The Library Management System is a software application designed to simplify and automate various library operations. It serves as an efficient tool for librarians and library staff to manage books, patrons, and other library resources. This system provides a user-friendly interface for both library administrators and patrons to facilitate library-related tasks.
 ## Usage:
-1.Add a Book
-
+# 1.Add a Book
 Run the program, and you'll be prompted to enter book details such as title, author, price, category, and quantity. The book will be added to the inventory.
-View the List of Books
+# 2.View the List of Books:
+You can view the list of books in your inventory, which includes details like title, author, price, category, and quantity.
 
-3.You can view the list of books in your inventory, which includes details like title, author, price, category, and quantity.
-Search for a Book
+# 3.Search for a Book
+You can search for a book in your inventory by entering a title. The program will display details of all matching books.
 
-4.You can search for a book in your inventory by entering a title. The program will display details of all matching books.
-Buy a Book
+# 4.Buy a Book
+To buy a book, provide the title of the book you want to purchase. The program will check if it's in stock and allow you to specify the quantity to buy.
 
-5.To buy a book, provide the title of the book you want to purchase. The program will check if it's in stock and allow you to specify the quantity to buy.
-Delete a Book
 
-6.If you want to remove a book from your inventory, you can enter the title of the book you want to delete.
-Modify a Book
+# 5.Delete a Book
+If you want to remove a book from your inventory, you can enter the title of the book you want to delete.
 
-7.To update the information of a book, provide the title of the book you want to modify. You can change details like title, author, price, category, and quantity.
+# 6.Modify a Book
+To update the information of a book, provide the title of the book you want to modify. You can change details like title, author, price, category, and quantity.
+
 
 ## Code Structure
 The program is implemented as a Dart class named Book.
