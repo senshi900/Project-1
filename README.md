@@ -1,9 +1,9 @@
 # Project 1 - Library Project using Dart
 
 
-##Introduction:
+## Introduction:
 The Library Management System is a software application designed to simplify and automate various library operations. It serves as an efficient tool for librarians and library staff to manage books, patrons, and other library resources. This system provides a user-friendly interface for both library administrators and patrons to facilitate library-related tasks.
-##Usage:
+## Usage:
 
 The "Library Project using Dart" is an exciting software application designed to efficiently manage a library's book inventory and streamline user interactions through a Command Line Interface (CLI). This capstone project provides you, as a student, with an excellent opportunity to apply your knowledge and skills in Flutter Development, showcasing your proficiency in Dart programming.
 
